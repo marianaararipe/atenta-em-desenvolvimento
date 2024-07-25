@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Arkitektur - Architecture HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Barra de contato COMEÇO -->
+    <div class="container-fluid bg-dark p-0 wow" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+            <!--Telefone-->
+            <a class="text-body px-2" href="tel:+0123456789"
+              ><i class="fa fa-phone-alt text-primary me-2"></i>19 0000-0000</a
+            >
+            <!--E-mail-->
+            <a class="text-body px-2" href="mailto:info@example.com"
+              ><i class="fa fa-envelope-open text-primary me-2"></i
+              >info@example.com</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <!--
+            <div class="h-100 d-inline-flex align-items-center py-3 me-2">
+              <a class="text-body px-2" href="">Terms</a>
+              <a class="text-body px-2" href="">Privacy</a>
+            </div>
+          -->
+
+          <!--REDES SOCIAIS-->
+          <div class="h-100 d-inline-flex align-items-center">
+            <!--FACEBOOK-->
+            <a class="btn btn-sm-square btn-outline-body me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!--tWITTER-->
+            <a class="btn btn-sm-square btn-outline-body me-1" href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!--LINKEDIN-->
+            <a class="btn btn-sm-square btn-outline-body me-1" href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <!--INSTAGRAM-->
+            <a class="btn btn-sm-square btn-outline-body me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Barra de Contato Final -->
+
+    <!-- Header começo -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow"
+      data-wow-delay="0.1s"
+    >
+      <!--icone da marca-->
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <h1 class="text-primary m-0">
+          <img class="me-3" src="img/icons/icon-1.png" alt="Icon" />Atenta
+        </h1>
+      </a>
+
+      <!--Barra de navegação para celular-->
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--header content-->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link">Início</a>
+
+          <!--<a href="service.html" class="nav-item nav-link">Produtos</a>-->
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Produtos</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="feature.html" class="dropdown-item">Alarmes</a>
+              <a href="project.html" class="dropdown-item"
+                >Circuito Fechado de Televisão - CFTV</a
+              >
+              <a href="team.html" class="dropdown-item"
+                >Sistema de Controle de Acesso/Coação</a
+              >
+              <a href="appointment.html" class="dropdown-item"
+                >Sistema de Controle/Portaria</a
+              >
+              <a href="testimonial.html" class="dropdown-item"
+                >Projeto de redes de micros, cabeamento [...]</a
+              >
+              <a href="testimonial.html" class="dropdown-item"
+                >Concertinas e Redes Laminadas</a
+              >
+              <a href="testimonial.html" class="dropdown-item"
+                >Sistemas de Identificação</a
+              >
+              <a href="testimonial.html" class="dropdown-item"
+                >Ponto Eletrônico</a
+              >
+              <a href="testimonial.html" class="dropdown-item"
+                >Sistema de Proteção de Surto</a
+              >
+              <a href="testimonial.html" class="dropdown-item">Iluminação</a>
+              <a href="testimonial.html" class="dropdown-item"
+                >Projetos Especiais</a
+              >
+
+              <!--<a href="testimonial.html" class="dropdown-item"></a>-->
+            </div>
+          </div>
+
+          <a href="about.html" class="nav-item nav-link active">Sobre Nós</a>
+
+          <a href="backup-elements.html" class="nav-item nav-link">Outros elementos</a>
+        </div>
+        <a
+          href="contact.html"
+          class="btn btn-primary py-2 px-4 d-none d-lg-block"
+          >CONTATO</a
+        >
+      </div>
+    </nav>
+    <!-- HEADER FIM -->
+
+    <!-- Cabeçalho da pagina COMEÇO -->
+    <div
+      class="container-fluid page-header py-5 mb-5 wow"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-1 text-white animated slideInDown">Sobre Nós</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item text-primary active" aria-current="page">
+              Sobre Nós
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Cabeçalho da pagina FIM -->
+
+    <!-- Sobre COMEÇO -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow" data-wow-delay="0.1s">
+            <div class="about-img">
+              <img class="img-fluid" src="img/about-1.jpg" alt="" />
+              <img class="img-fluid" src="img/about-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 wow" data-wow-delay="0.5s">
+            <h4 class="section-title">Sobre Nós</h4>
+
+            <h1 class="display-5 mb-4">
+              A Creative Architecture Agency For Your Dream Home
+            </h1>
+
+            <p>
+              <!--A <b>Atenta Segurança Eletrônica LTDA</b> é uma empresa especializada em 
+              tecnologia de Sistema de Segurança desde 1983, empregando a melhor 
+              combinação entre produtos, suporte, treinamento e tecnologia de   
+              ponta, acompanhando todas as evoluções tecnológicas do mercado 
+              nacional e internacional.-->
+              A <b>Atenta Segurança Eletrônica LTDA</b> é uma empresa
+              especializada em tecnologia de sistemas de segurança desde 1983.
+              Nossa abordagem combina produtos de alta qualidade, suporte,
+              treinamento e tecnologia de ponta, acompanhando todas as evoluções
+              do mercado nacional e internacional.
+            </p>
+
+            <p class="mb-4">
+              <!--Executamos desde o projeto de soluções na área de Segurança e Rede de Informática, 
+              serviços básicos de elétrica, logística, equipamentos e mão de obra, com toda  
+              a instalação e manutenção dos produtos  instalados.-->
+              Executamos projetos de soluções na área de segurança e rede de
+              informática, oferecendo serviços básicos de elétrica, logística,
+              equipamentos e mão de obra. Além disso, somos revendedores
+              autorizados da Intelbras e de outros fabricantes.
+            </p>
+
+            <div class="d-flex align-items-center mb-5">
+              <div
+                class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
+                style="width: 120px; height: 120px"
+              >
+                <h1 class="display-1 mb-n2" data-toggle="counter-up">41</h1>
+              </div>
+              <div class="ps-4">
+                <h3>Anos</h3>
+                <h3>de Experiência</h3>
+                <h3 class="mb-0">Profissional</h3>
+              </div>
+            </div>
+            <a class="btn btn-primary py-3 px-5" href="about.html">Leia Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sobre FIM -->
+
+    <div class="espaco"></div>
+
+    <!-- Feature COMEÇO -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow" data-wow-delay="0.1s">
+            <h4 class="section-title">Porque nos escolher!</h4>
+
+            <h1 class="display-5 mb-4">
+              Por que você deveria confiar em nós? Aprenda mais sobre nossos
+              valores!
+            </h1>
+
+            <div class="row g-4">
+              <div class="col-12">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="flex-shrink-0"
+                    src="img/icons/icon-2.png"
+                    alt="Icon"
+                  />
+                  <div class="ms-4">
+                    <h3>Excelência</h3>
+                    <p class="mb-0">
+                      Comprometemo-nos com a excelência em cada serviço
+                      prestado, buscando aprimoramento contínuo e perfeição em
+                      cada detalhe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="flex-shrink-0"
+                    src="img/icons/icon-4.png"
+                    alt="Icon"
+                  />
+                  <div class="ms-4">
+                    <h3>Respeito</h3>
+                    <p class="mb-0">
+                      Valorizamos a diversidade e a individualidade de cada
+                      cliente, proporcionando um ambiente acolhedor, inclusivo e
+                      respeitoso.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="flex-shrink-0"
+                    src="img/icons/icon-3.png"
+                    alt="Icon"
+                  />
+                  <div class="ms-4">
+                    <h3>Integridade</h3>
+                    <p class="mb-0">
+                      Atuamos com transparência, ética e honestidade em todas as
+                      interações com nossas clientes e colaboradores.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="flex-shrink-0"
+                    src="img/icons/icon-4.png"
+                    alt="Icon"
+                  />
+                  <div class="ms-4">
+                    <h3>Inovação</h3>
+                    <p class="mb-0">
+                      Buscamos constantemente aprimorar nossos serviços por meio
+                      da inovação, oferecendo as últimas tecnologias e técnicas
+                      no mundo da segurança eletrônica.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow" data-wow-delay="0.5s">
+            <div class="feature-img">
+              <img class="img-fluid" src="img/about-2.jpg" alt="" />
+              <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature FIM -->
+
+    <div class="espaco"></div>
+
+    <!-- Missão e Valores COMEÇO -->
+    <div class="container-xxl project py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow"
+          data-wow-delay="0.1s"
+          style="max-width: 600px"
+        >
+          <h4 class="section-title">Conheça</h4>
+          <h1 class="display-5 mb-4">Nossa Missão e Valores</h1>
+        </div>
+        <div class="row g-4 wow" data-wow-delay="0.3s">
+          <div class="col-lg-4">
+            <div
+              class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
+            >
+              <!--BOTÕES-->
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-1"
+                type="button"
+              >
+                <h3 class="m-0">01. Missão</h3>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-2"
+                type="button"
+              >
+                <h3 class="m-0">02. Visão</h3>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-3"
+                type="button"
+              >
+                <h3 class="m-0">03. Valores</h3>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-4"
+                type="button"
+              >
+                <h3 class="m-0">04. Sustentabilidade</h3>
+              </button>
+            </div>
+          </div>
+
+          <!-- TEXTOS E IMAGENS-->
+          <div class="col-lg-8">
+
+        <!-- 1- Missão -->
+            <div class="tab-content w-100">
+              <div class="tab-pane fade show active" id="tab-pane-1">
+                <div class="row g-4">
+
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/project-1.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  
+                  <div class="col-md-6">
+                    <h1 class="mb-3">
+                      25 Years Of Experience In Architecture Industry
+                    </h1>
+                    <p class="mb-4">
+                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+                      lorem et sit, sed stet lorem sit clita duo justo magna
+                      dolore erat amet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Design
+                      Approach
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Innovative
+                      Solutions
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Project
+                      Management
+                    </p>
+                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2- Visão-->
+              <div class="tab-pane fade" id="tab-pane-2">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/project-2.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">
+                      25 Years Of Experience In Architecture Industry
+                    </h1>
+                    <p class="mb-4">
+                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+                      lorem et sit, sed stet lorem sit clita duo justo magna
+                      dolore erat amet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Design
+                      Approach
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Innovative
+                      Solutions
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Project
+                      Management
+                    </p>
+                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3- Valores -->
+              <div class="tab-pane fade" id="tab-pane-3">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/project-3.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">
+                      Os 4 Pilares da Atenta
+                    </h1>
+                    <p class="mb-4">
+                      Nossa empresa é guiada por quatro valores fundamentais:
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>
+                      Excelência
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>
+                      Respeito
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>
+                      Integridade
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>
+                      Inovação
+                    </p>
+                    <p class="">
+                        Buscamos sempre a excelência em nossos serviços, 
+                        tratando nossos clientes com respeito e 
+                        mantendo a integridade em todas as nossas ações. 
+                        Além disso, estamos constantemente inovando para 
+                        oferecer soluções cada vez melhores.
+                      </p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4- Sustentabilidade-->
+              <div class="tab-pane fade" id="tab-pane-4">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/project-4.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">
+                      25 Years Of Experience In Architecture Industry
+                    </h1>
+                    <p class="mb-4">
+                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+                      lorem et sit, sed stet lorem sit clita duo justo magna
+                      dolore erat amet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Design
+                      Approach
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Innovative
+                      Solutions
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-primary me-3"></i>Project
+                      Management
+                    </p>
+                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Missão e Valores FIM -->
+
+     <!-- Footer Start -->
+     <div
+     class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+     data-wow-delay="0.1s"
+   >
+     <div class="container py-5">
+       <div class="row g-5">
+         <div class="col-lg-3 col-md-6">
+
+
+
+           <h3 class="text-light mb-4">Endereço</h3>
+
+           <p class="mb-2">
+             <i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street,
+             New York, USA
+           </p>
+
+           <p class="mb-2">
+             <i class="fa fa-phone-alt text-primary me-3"></i>19 0000-0000
+           </p>
+
+           <p class="mb-2">
+             <i class="fa fa-envelope text-primary me-3"></i>info@example.com
+           </p>
+
+           <div class="d-flex pt-2">
+             <a class="btn btn-square btn-outline-body me-1" href=""
+               ><i class="fab fa-twitter"></i
+             ></a>
+
+             <a class="btn btn-square btn-outline-body me-1" href=""
+               ><i class="fab fa-facebook-f"></i
+             ></a>
+
+             <a class="btn btn-square btn-outline-body me-1" href=""
+               ><i class="fab fa-youtube"></i
+             ></a>
+
+             <a class="btn btn-square btn-outline-body me-0" href=""
+               ><i class="fab fa-linkedin-in"></i
+             ></a>
+           </div>
+         </div>
+
+
+         <div class="col-lg-3 col-md-6">
+           <h3 class="text-light mb-4">Produtos</h3>
+           <a class="btn btn-link" href="">Alarmes</a>
+           <a class="btn btn-link" href="">Circuito Fechado de Televisão - CFTV</a>
+           <a class="btn btn-link" href="">Sistema de Controle de Acesso/Coação</a>
+           <a class="btn btn-link" href="">Sistema de Controle de Acesso/Portaria</a>
+           <a class="btn btn-link" href="">Projeto de redes de micros [...]</a>
+           <a class="btn btn-link" href="">Concertinas e redes Laminadas</a>
+           <a class="btn btn-link" href="">Sistemas de Identificação</a>
+           <a class="btn btn-link" href="">Ponto Eletrônico</a>
+           <a class="btn btn-link" href="">Sistema de Proteção de Surto</a>
+           <a class="btn btn-link" href="">Iluminação</a>
+           <a class="btn btn-link" href="">Projetos Especiais</a>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <h3 class="text-light mb-4">Links Rápidos</h3>
+           <a class="btn btn-link" href="about.html">Sobre Nós</a>
+           <a class="btn btn-link" href="contact.html">Contate-nos</a>
+           <a class="btn btn-link" href="service.html">Nossos Produtos</a>
+           <a class="btn btn-link" href="">Termos & Condições</a>
+           <a class="btn btn-link" href="">Suporte</a>
+         </div>
+         
+         </div>
+       </div>
+     </div>
+     <div class="container-fluid copyright">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+             &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+           </div>
+           <div class="col-md-6 text-center text-md-end">
+             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+             Designed By <a href="https://htmlcodex.com">HTML Codex</a> <br />
+             Distributed By:
+             <a
+               class="border-bottom"
+               href="https://themewagon.com"
+               target="_blank"
+               >ThemeWagon</a
+             >
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
